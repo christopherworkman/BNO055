@@ -74,6 +74,8 @@ while True:
     # Other values you can optionally read:
     # Orientation as a quaternion:
     #x,y,z,w = bno.read_quaterion()
+    #print('Quaternion X = {0:0.2F} Y = {1:0.2F} Z = {2:0.2F} W = {3:0.2F}'.format(
+    #      x, y, z, w))
     # Sensor temperature in degrees Celsius:
     #temp_c = bno.read_temp()
     # Magnetometer data (in micro-Teslas):
